@@ -25,9 +25,8 @@ body {
 }
 #colOne,
 #colTwo {
-    background-color: white;
-   
-    margin: 0 10px 0 10px;
+    background-color: rgba(0,0,0,0.03);
+  
 }
 
 footer {
@@ -38,9 +37,6 @@ footer {
 
 #mynavbar {
   background-color:white;
-  border-radius: 10px 10px 0 0;
-  margin: 10px;
- 
 }
 .navbar-brand {
     color: black;
@@ -51,17 +47,11 @@ footer {
 }
 
 .nav-link:hover {
-  
-    
     color: white;
 }
 /* Navbar */
 
 
-/*
-#colOne,
-#colTwo {
-    background-color: #F0EDEC;
-}
-*/
+
+
 
