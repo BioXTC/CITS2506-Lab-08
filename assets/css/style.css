@@ -3,6 +3,7 @@ html {
     width: 100%;
 }
 
+
 .shantell-sans-font {
     font-family: "Shantell Sans", cursive;
     font-optical-sizing: auto;
@@ -15,25 +16,20 @@ html {
   }
   
 header {
-    background-color: aqua;
+    background-color: #8C8C88;
 }
 
 body {
-    background-color: green;
+    background-color: #F1F2E9;
 }
 footer {
     text-align: center;
-    background-color: pink;
+    background-color: #8C8A80;
 }
 
-#colOne {
-    background-color: blueviolet;
-}
-
+#colOne,
 #colTwo {
-    background-color: brown;
+    background-color: #D0D5D9;
 }
-.col img {
-    height: 100%;
-    width: 100%;
-}
+
+
