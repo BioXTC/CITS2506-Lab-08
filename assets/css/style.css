@@ -9,3 +9,7 @@
       "SPAC" 0;
   }
   
+.col img {
+    height: 100%;
+    width: 100%;
+}
