@@ -15,10 +15,6 @@ body {
     margin: auto;
 }
 
-header {
-    background-color: black;
-}
-
 h2,
 h3 {
     opacity: 90%;
@@ -34,7 +30,7 @@ footer {
 }
 
 
-/* Navbar Styling */
+/* Navbar/brand Styling */
 
 .navbar-brand {
     color: rgba(255, 255, 255, 0.9);
