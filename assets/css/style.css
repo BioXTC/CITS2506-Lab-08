@@ -1,7 +1,6 @@
 html {
     height: 100%;
     width: 100%;
-
 }
 
 .dynalight-regular {
@@ -26,16 +25,10 @@ body {
     margin: auto;
 }
 
-
 h2,
 h3 {
-    /*text-decoration: underline;
-    text-decoration-color: rgb(107, 20, 20);
-    text-underline-offset: 7px;
-    text-decoration-thickness: 3px;*/
     opacity: 90%;
 }
-
 
 #colOne,
 #colTwo {
@@ -43,26 +36,11 @@ h3 {
     padding: 15px;
 }
 
-
-#colOne {
-    border-radius: 5px 0px;
-
-
-}
-
-#colTwo {
-    border-radius: 0 5px;
-
-}
-
 footer {
-    margin-top: 15px;
     padding: 1px;
 }
 
 /* Navbar */
-
-#mynavbar {}
 
 .navbar-brand {
     color: white;
@@ -70,13 +48,12 @@ footer {
 }
 
 .navbar-nav {
-
     border-radius: 5px;
     padding: 5px;
-
 }
+
 .navbar-toggler {
-    border-color: white;
+    border-color: rgba(255, 255, 255, 0.8);
 }
 
 .nav-link:hover {
@@ -88,15 +65,14 @@ footer {
 .fa-house,
 .fa-camera,
 .fa-envelope {
-    color: rgb(255,255,255,0.8) !important;
+    color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .fa-house:hover,
 .fa-camera:hover,
 .fa-envelope:hover {
-    color: rgb(255,255,255,1) !important;
+    color: rgba(255, 255, 255, 1) !important;
 }
-
 
 #homeActive,
 #galleryActive,
