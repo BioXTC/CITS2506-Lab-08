@@ -16,8 +16,9 @@ body {
 }
 
 h2,
-h3 {
-    opacity: 90%;
+h3,
+h6 {
+    opacity: 80%;
 }
 
 #colOne,
