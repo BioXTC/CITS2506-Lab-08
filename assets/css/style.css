@@ -1,57 +1,98 @@
-
 html {
     height: 100%;
     width: 100%;
-   
+
 }
 
 .dynalight-regular {
     font-family: "Dynalight", cursive;
     font-weight: 400;
     font-style: normal;
-  }
+}
+
+.londrina-shadow-regular {
+    font-family: "Londrina Shadow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 header {
+    background-color: black;
 }
 
 body {
-     background-color: rgba(0,0,0,1);
-    /* 
-    background: linear-gradient(180deg, rgba(102, 67, 63, 1), rgba(102, 67, 63, 0.7)); 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    */    
+    background-color: rgba(0, 0, 0, 1);
+    width: 95%;
+    margin: auto;
 }
+
+
+h2,
+h3 {
+    /*text-decoration: underline;
+    text-decoration-color: rgb(107, 20, 20);
+    text-underline-offset: 7px;
+    text-decoration-thickness: 3px;*/
+    opacity: 90%;
+}
+
+
 #colOne,
 #colTwo {
-    background-color: rgba(255,255,255,0.8);
+    /* background-color: rgba(255, 255, 255, 0.07); */
+    padding: 15px;
+}
+
+
+#colOne {
+    border-radius: 5px 0px;
+
+
+}
+
+#colTwo {
+    border-radius: 0 5px;
+
 }
 
 footer {
-    background-color: #817A81;
+    margin-top: 15px;
+    padding: 1px;
 }
 
 /* Navbar */
 
-#mynavbar {
-    background-color: rgba(255,255,255,0.5);
-   
-    
-}
+#mynavbar {}
+
 .navbar-brand {
-    color: black;
+    color: white;
+    font-size: 48px;
 }
 
-.nav-link {
- 
+.navbar-nav {
+
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.navbar-toggler {
+    border-color: white;
 }
 
 .nav-link:hover {
     color: white;
 }
+
 /* Navbar */
 
+.fa-house,
+.fa-camera,
+.fa-envelope {
+    color: rgb(255,255,255,0.8) !important;
+}
 
-
-
-
+.fa-house:hover,
+.fa-camera:hover,
+.fa-envelope:hover {
+    color: rgb(255,255,255,1) !important;
+}
