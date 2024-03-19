@@ -9,14 +9,14 @@ html {
     font-style: normal;
 }
 
-header {
-    background-color: black;
-}
-
 body {
     background-color: rgba(0, 0, 0, 1);
     width: 95%;
     margin: auto;
+}
+
+header {
+    background-color: black;
 }
 
 h2,
@@ -26,7 +26,6 @@ h3 {
 
 #colOne,
 #colTwo {
-    /* background-color: rgba(255, 255, 255, 0.07); */
     padding: 15px;
 }
 
@@ -34,10 +33,11 @@ footer {
     padding: 1px;
 }
 
-/* Navbar */
+
+/* Navbar Styling */
 
 .navbar-brand {
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
     font-size: 48px;
 }
 
@@ -54,7 +54,8 @@ footer {
     color: white;
 }
 
-/* Navbar */
+
+/* Navbar Icon Styling */
 
 .fa-house,
 .fa-camera,
