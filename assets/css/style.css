@@ -96,3 +96,10 @@ footer {
 .fa-envelope:hover {
     color: rgb(255,255,255,1) !important;
 }
+
+
+#homeActive,
+#galleryActive,
+#contactActive {
+    color: rgb(133, 30, 30) !important;
+}
