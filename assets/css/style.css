@@ -71,3 +71,23 @@ footer {
 #contactActive {
     color: rgb(133, 30, 30) !important;
 }
+
+/* Image Title Overlay */
+
+/* 
+h6 {
+    position: relative;
+    top: 29px;
+    background-color: rgba(0,0,0,0.9);
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+    border-radius: 0 0 5px 5px;
+    color: white;
+}
+
+#aboutTitle {
+    margin-top: 30px;
+}
+
+*/
